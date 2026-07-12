@@ -1,0 +1,48 @@
+<svg viewBox="0 0 1200 480" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+  <rect width="1200" height="480" fill="url(#sky)"/>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9fd8e6"/>
+      <stop offset="60%" stop-color="#bfe8ea"/>
+      <stop offset="100%" stop-color="#e9f6ee"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2fb6b0"/>
+      <stop offset="100%" stop-color="#1c8f97"/>
+    </linearGradient>
+    <linearGradient id="shallow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7fe3d6"/>
+      <stop offset="100%" stop-color="#3ec2bd"/>
+    </linearGradient>
+  </defs>
+  <circle cx="1030" cy="90" r="55" fill="#ffd873"/>
+  <rect y="220" width="1200" height="260" fill="url(#sea)"/>
+  <ellipse cx="600" cy="235" rx="620" ry="30" fill="url(#shallow)"/>
+  <path d="M0 470 Q300 430 600 465 T1200 455 V480 H0 Z" fill="#f4e4bf"/>
+  <g transform="translate(150,270)">
+    <rect x="-6" y="40" width="12" height="140" fill="#8a5a34"/>
+    <path d="M-90 40 Q0 -40 90 40 Z" fill="#c9974f"/>
+    <path d="M-90 40 Q0 -40 90 40" fill="none" stroke="#a97a3a" stroke-width="4"/>
+  </g>
+  <g transform="translate(950,300)">
+    <rect x="-6" y="30" width="12" height="120" fill="#8a5a34"/>
+    <path d="M-70 30 Q0 -30 70 30 Z" fill="#c9974f"/>
+  </g>
+  <g transform="translate(1080,230)">
+    <rect x="-5" y="0" width="10" height="130" fill="#6b8f3e" transform="rotate(6)"/>
+    <g fill="#3f7a3a">
+      <path d="M0 0 Q-60 -20 -90 10 Q-50 5 0 10 Z"/>
+      <path d="M0 0 Q60 -20 90 10 Q50 5 0 10 Z"/>
+      <path d="M0 0 Q-40 -50 -55 -80 Q-20 -40 0 -5 Z"/>
+      <path d="M0 0 Q40 -50 55 -80 Q20 -40 0 -5 Z"/>
+    </g>
+  </g>
+  <g transform="translate(60,240)">
+    <rect x="-5" y="0" width="10" height="120" fill="#6b8f3e" transform="rotate(-8)"/>
+    <g fill="#3f7a3a">
+      <path d="M0 0 Q-55 -15 -80 12 Q-45 5 0 8 Z"/>
+      <path d="M0 0 Q55 -25 85 5 Q45 0 0 8 Z"/>
+      <path d="M0 0 Q-35 -45 -48 -72 Q-15 -35 0 -5 Z"/>
+    </g>
+  </g>
+</svg>
